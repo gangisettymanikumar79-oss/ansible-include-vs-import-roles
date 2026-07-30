@@ -1,3 +1,4 @@
-- name: call common roles
+- name: call common role
   import_role:
-      name: common
+  #include_role:
+    name: common
