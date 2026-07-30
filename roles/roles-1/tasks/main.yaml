@@ -4,3 +4,5 @@
     name: common
   tags:
   - hi
+  when: os == "Redhat"
+
