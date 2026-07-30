@@ -1,8 +1,6 @@
 - name: include-vs-import
   hosts: localhost
   connection: local
-  gather_facts: false
-
   roles:
-    - common
+  - roles-1
   
