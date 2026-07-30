@@ -1,0 +1,8 @@
+- name: common role msg-1
+  debug:
+    msg: "HI, i am from role MSG-1"
+
+- name: common role msg-2
+  debug:
+    msg: "HI, i am from role MSG-2"
+    
