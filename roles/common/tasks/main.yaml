@@ -6,12 +6,12 @@
 - name: common role msg-2
   debug:
     msg: "HI, i am from common role MSG-2"
-    when: os == "Redhat"
+    
 
 - name: common role msg-3
   debug:
     msg: "HI, i am from common role MSG-3"
-    when: os == "Redhat"
+    
 
 - name: change the fact
   set_fact:
@@ -21,8 +21,7 @@
 - name: common role msg-4
   debug:
     msg: "HI, i am from common role MSG-4"
-    when: os == "Redhat"
-
+    
 # - name: call roles-2
 #   # import_role:
 #   include_role:
